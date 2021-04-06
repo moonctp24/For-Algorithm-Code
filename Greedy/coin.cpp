@@ -13,9 +13,9 @@ int main(void){
     cin >> n >> k;
     vector <int> v;
     for(int i=0;i<n;i++){
-        int n=0;
-        cin >> n;
-        v.push_back(n);
+        int temp=0;
+        cin >> temp;
+        v.push_back(temp);
     }
 
     int count=0;
