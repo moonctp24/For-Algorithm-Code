@@ -1,0 +1,19 @@
+import java.util.LinkedList; // java에서 queue는 LinkedList를 활용하여 생성해야 한다.
+import java.util.Queue;
+
+Queue<Integer> queue = new LinkedList<>();
+
+// 값 추가
+queue.add(1):
+queue.add(2):
+queue.offer(3):
+
+queue.peek(); // queue의 첫번째 값 참조
+
+// 값 삭제
+queue.poll(); // queue의 첫번째 값 반환 후 제거
+queue.remove(); // queue의 첫번째 값 제거
+
+queue.clear(); // queue 초기화
+
+queue.isEmpty(); // queue가 비어있는지 확인

@@ -1,0 +1,13 @@
+사용법
+import java.util.Stack;
+Stack<Integer> stack = new Stack<>();
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.peek(); // stack 가장 상단 값 출력
+stack.pop(); // stack 값 제거
+stack.clear(); // stack 전체 값 제거
+
+stack.size();      // stack의 크기 출력
+stack.empty();     // stack이 비어있는지 check (비어있다면 true)
+stack.contains(1); // stack에 1이 있는지 check (있다면 true)
