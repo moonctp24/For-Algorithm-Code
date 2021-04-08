@@ -13,3 +13,8 @@ StringBuilder sb = new StringBuilder();
 sb.append("abc");
 sb.append("def");
 System.out.println(sb.toString());
+
+charAt() // 특정 인덱스 위치 문자 반환
+indexOf(), lastIndexOf() // 문자열 검색해서 위치 반환
+length() // 문자열 길이 반환
+substring() // 특정 인덱스 범위 내 문자열 복사해서 새로 생성된 인스턴스 반환
