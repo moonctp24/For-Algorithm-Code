@@ -1,0 +1,19 @@
+사용법
+import java.util.PriorityQueue;
+
+PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(); // 우선순위가 낮은 순
+PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder()); // 우선순위가 높은 순
+
+priorityQueue.add(1);
+priorityQueue.add(2);
+priorityQueue.offer(3);
+
+priorityQueue.peek(); // queue의 첫번째 값 참조
+
+// 값 삭제
+priorityQueue.poll(); // queue의 첫번째 값 반환 후 제거
+priorityQueue.remove(); // queue의 첫번째 값 제거
+
+priorityQueue.clear(); // queue 초기화
+
+priorityQueue.isEmpty(); // queue가 비어있는지 확인
