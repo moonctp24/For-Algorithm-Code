@@ -3,7 +3,7 @@ Programmers 2018 KAKAO BLIND RECRUITMENT [3차] 파일명 정렬
 https://programmers.co.kr/learn/courses/30/lessons/17686?language=cpp
 */
 
-// stable_sort() 함수 활용 - sort()와 큰 차이점은 정렬시 기준에 동일하게 부합하는 원소 두 개가 있을 때, 랜덤하게 정렬하느냐 원본 위치를 유지하느냐 입니다. stable_sort()는 원본 위치를 유지합니다.
+/* stable_sort() 함수 활용 - sort()와 큰 차이점은 정렬시 기준에 동일하게 부합하는 원소 두 개가 있을 때, 랜덤하게 정렬하느냐 원본 위치를 유지하느냐 입니다. stable_sort()는 원본 위치를 유지합니다. */
 
 /*
 문자열 조건 => HEAD + NUMBER + TAIL
