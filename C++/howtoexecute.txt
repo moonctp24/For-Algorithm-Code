@@ -1,0 +1,7 @@
+How to execute c++ in vsCode
+
+ctl + alt + c
+=> create c++ object file
+
+ctl + alt + r
+=> run
