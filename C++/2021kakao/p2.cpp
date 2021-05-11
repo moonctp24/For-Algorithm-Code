@@ -25,3 +25,5 @@ vector<int> solution(vector<vector<string>> places) {
     
     return answer;
 }
+
+// TEST CASE부터 통과 못함

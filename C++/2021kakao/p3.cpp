@@ -43,3 +43,6 @@ string solution(int n, int k, vector<string> cmd) {
 
     return com;
 }
+
+// TEST CASE는 통과했는데 히든 TC 30개 중 11개 통과
+// 예외 케이스를 못찾겠다
