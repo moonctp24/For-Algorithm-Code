@@ -1,9 +1,12 @@
-#include <string>
-#include <vector>
-#include <iostream>
+// Programmers DFS/BFS Target Number
+// https://programmers.co.kr/learn/courses/30/parts/12421
 
 // O(2^n) 방법밖에 생각안나는데..
 // bad alloc Error
+
+#include <string>
+#include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -19,13 +22,13 @@ int solution(vector<int> numbers, int target) {
         }
     }
 
-    for(int i=0;i<temp.size();i++)
-        cout << temp[i]<<"  ";
+    // for(int i=0;i<temp.size();i++)
+    //     cout << temp[i]<<"  ";
         
-    // int n =0;
-    // int temp_size = temp.size();
-    // for(int i=temp_size/2; i<temp_size;i++)
-    //     if(temp[i] == target) n++;
+    int n =0;
+    int temp_size = temp.size();
+    for(int i=temp_size/2; i<temp_size;i++)
+        if(temp[i] == target) n++;
     
     
     int answer = 0;
