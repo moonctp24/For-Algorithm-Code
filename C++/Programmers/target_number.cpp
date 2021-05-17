@@ -1,8 +1,8 @@
 // Programmers DFS/BFS Target Number
 // https://programmers.co.kr/learn/courses/30/parts/12421
 
-// O(2^n) 방법밖에 생각안나는데..
-// bad alloc Error
+/* O(2^n) 방법밖에 생각안나는데..
+   bad alloc Error */
 
 #include <string>
 #include <vector>
