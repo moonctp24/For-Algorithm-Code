@@ -1,5 +1,6 @@
 // 최대공약수 계산 (유클리드 호제법) 예제
 
+
 #include <iostream>
 
 using namespace std;
