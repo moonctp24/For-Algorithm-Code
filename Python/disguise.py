@@ -42,3 +42,14 @@ key. (종류별갯수+1)를 전부 곱하면 모든 종류의 옷을 고르거�
 2. 종류별갯수+1 전부 곱하기
 3. 모든 옷을 고르지 않는 한 가지 -1
 '''
+
+'''
+# 다른사람이 쓴 매우 간결한 코드
+# counter 클래스, reduce 사용해서 계산을 한번에 함
+def solution(clothes):
+    from collections import Counter
+    from functools import reduce
+    cnt = Counter([kind for name, kind in clothes])
+    answer = reduce(lambda x, y: x*(y+1), cnt.values(), 1) - 1
+    return answer
+'''
