@@ -1,3 +1,8 @@
+"""
+https://programmers.co.kr/learn/challenges
+PROGRAMMERS 2021 KAKAO DEV-MATCHING LOTTOS
+"""
+
 def solution(lottos, win_nums):
     count = 0
     count0 = 0
