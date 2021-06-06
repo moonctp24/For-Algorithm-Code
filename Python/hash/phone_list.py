@@ -8,7 +8,7 @@ def solution(phone_book):
     for i in range(len(phone_book)-1):
         len_index = len(phone_book[i])
         if phone_book[i] in phone_book[i+1][:len_index]:
-            return False     
+            return False
     return True
 
 def main():
