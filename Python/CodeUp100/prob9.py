@@ -1,0 +1,2 @@
+charC = input()
+print(charC)
