@@ -6,13 +6,11 @@ PROGRAMMERS 숫자 문자열과 영단어
 def solution(s):
     words=['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 
-    answer = ''
     for i, num in enumerate(words):
         if num in words:
             s = s.replace(num, str(i))
-        answer = s
     
-    return int(answer)
+    return int(s)
 
 def main():
     s1 = "one4seveneight"
