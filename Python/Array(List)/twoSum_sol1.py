@@ -16,17 +16,12 @@ def twoSum(nums, target):
     i2 = n-1
     
     # O(n)
-    for i in range(n):
-        # if(nums[i2] > target):
-        #     i2 -= 1
-        #     continue
-        if(i2 <= i1):
-            return False
-        if(nums[i1] + nums[i2] == target):
+    while i2>i1:
+        if nums[i1] + nums[i2] == target:
             return True
-        elif(nums[i1] + nums[i2] < target):
+        elif nums[i1] + nums[i2] < target:
             i1 += 1
-        elif(nums[i1] + nums[i2] > target):
+        elif nums[i1] + nums[i2] > target:
             i2 -= 1
     return False
 
