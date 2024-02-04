@@ -13,12 +13,12 @@ def isValidParenthesis(s):
             pStack.append(p)
         else:
             tmpP = pStack.pop()
-            if(p == ')' and tmpP == '('):
-                continue
-            elif(p == '}' and tmpP == '{'):
-                continue
-            elif(p == ']' and tmpP == '['):
-                continue
+            if(p == ')' and tmpP != '('):
+                return False
+            elif(p == '}' and tmpP != '{'):
+                return False
+            elif(p == ']' and tmpP != '['):
+                return False
     if(len(pStack)==0):
         return True
     else:
