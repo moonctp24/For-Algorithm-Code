@@ -13,13 +13,10 @@ def hotterDay(temperatures):
 
     tStack = []
     for i in range(len(temperatures)):
-        if(len(tStack)==0):
-            tStack.append((temperatures[i],i))
-        else:
-            while tStack and tStack[-1][0] < temperatures[i]:
-                lastT = tStack.pop()
-                answerList[lastT[1]] = i-lastT[1]
-            tStack.append((temperatures[i],i))
+        while tStack and tStack[-1][0] < temperatures[i]:
+            lastT = tStack.pop()
+            answerList[lastT[1]] = i-lastT[1]
+        tStack.append((temperatures[i],i))
     return answerList
 
 print(hotterDay([73,74,75,71,69,72,76,73]) == [1, 1, 4, 2, 1, 1, 0, 0])
