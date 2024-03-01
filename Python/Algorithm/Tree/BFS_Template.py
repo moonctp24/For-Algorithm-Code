@@ -19,4 +19,3 @@ def levelOrder(root):
         if cur_node.right:
             q.append(cur_node.right)
     return visited
-        
